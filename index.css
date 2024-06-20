@@ -21,6 +21,8 @@ body{
 
 
 .navbar{
+    top: 0;
+    position: fixed;
     width: 100vw;
     height: 15vh;
     background-color: var(--color-background);
@@ -44,12 +46,13 @@ body{
     display: flex;
     flex-direction: row;
     list-style-type: none;
-    gap: 10%;
+    gap: 8%;
     justify-content: center;
 }
 
-.lista_navbar:hover{
+.categoria_lista:hover{
     cursor: pointer;
+    color: var(--color-text);
 }
 
 .categoria_lista{
@@ -60,19 +63,18 @@ body{
 
 
 .heroimage{
-   
     background-image: url(Images/comida/hero.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0;
     width: 100%;
-    height: 80vh;
+    height: 100vh;
 }
 
 .blackFilter{
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 45%);
+    background-color: rgba(0, 0, 0, 55%);
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -91,4 +93,81 @@ body{
     width: 50%;
     text-align: left;
     color: var(--color-background);
+}
+
+.description{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.descriptionContainer{
+    width: 40%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.descriptionTitle{
+    font-size: 55px;
+    color: var(--color-text);
+}
+
+.descriptionText{
+    font-size: 25px;
+}
+
+.descriptionParagraph{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    padding: 5%;
+}
+
+.galery{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contenedorGalery{
+    width: 25%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10%;
+    justify-content: center;
+}
+
+.contenedorGalery img{
+    width: 90%;
+    height: 95%;
+    border-radius: 75%;
+}
+
+.galeryButton{
+    width: 8vw;
+    height: 30vh;
+    border-radius: 2%;
+    background-color: var(--color-accent);
+    border: none;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+
+.galeryButton:hover{
+    cursor: pointer;
+    background-color: #7c4f4f;
 }
