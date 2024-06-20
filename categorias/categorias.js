@@ -1,4 +1,3 @@
-
 hoverGalery();
 redirigir();
 
@@ -29,11 +28,11 @@ function redirigir(){
 
 
     buttonHome.addEventListener('click',()=>{
-        window.location.href = 'index.html'
+        window.location.href = '../index.html'
     });
  
 
     buttonCupcakes.addEventListener('click',()=>{
-        window.location.href = 'categorias/cupcakes.html'
+        window.location.href = 'cupcakes.html'
     });
 }

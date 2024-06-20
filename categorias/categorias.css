@@ -63,80 +63,9 @@ body{
 }
 
 
-
-.heroimage{
-    background-image: url(Images/comida/hero.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 0;
-    width: 100%;
-    height: 100vh;
-}
-
-.blackFilter{
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 55%);
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: column;
-    padding: 10%;
-}
-
-.heroText{
-    width: 50%;
-    font-size: 30px;
-    color: white;
-}
-
-.heroTitle{
-    font-size: 55px;
-    width: 50%;
-    text-align: left;
-    color: var(--color-background);
-}
-
-.description{
-    width: 100%;
-    height: 45vh;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    background-color: rgb(236, 234, 234)
-}
-
-.descriptionContainer{
-    width: 40%;
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-    flex-direction: column;
-}
-
-.descriptionTitle{
-    font-size: 55px;
-    color: var(--color-text);
-}
-
-.descriptionText{
-    font-size: 25px;
-}
-
-.descriptionParagraph{
-    width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 25px;
-    padding: 5%;
-}
-
 .galery{
     width: 100%;
-    height: 86vh;
+    height: 92vh;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     background-size: cover;
@@ -155,14 +84,14 @@ body{
 }
 
 .g1{
-    background-image: url(Images/comida/WhatsApp\ Image\ 2024-06-13\ at\ 10.24.08\ PM.jpeg);
+    background-image: url(../Images/comida/torta1.jpeg);
 }
 
 .g2{
-    background-image: url(Images/comida/WhatsApp\ Image\ 2024-06-13\ at\ 10.24.11\ PM.jpeg);
+    background-image: url(../Images/comida/torta2.jpeg);
 }
 .g3{
-    background-image: url(Images/comida/WhatsApp\ Image\ 2024-06-13\ at\ 10.24.13\ PM\ \(1\).jpeg);
+    background-image: url(../Images/comida/torta3.jpeg);
 }
 
 .galeryButton{
@@ -198,32 +127,7 @@ body{
     cursor: pointer;
 }
 
-.contact{
-    height: 30vh;
-    width: 100%;
-    background-color: var(--color-background);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
 
-.contactTitle{
-    margin: 2%;
-    font-size: 40px;
-    color: white;
-}
-
-.contactButton{
-    width: 8vw;
-    height: 5vh;
-    background-color: var(--color-text);
-    display: flex;
-    border-radius: 5%;
-    border: 1px solid black;
-    justify-content: center;
-    align-items: center;
-}
 
 footer{
     height: 8vh;
@@ -241,6 +145,7 @@ footer{
 a{
     color: white;
     text-decoration: none;
+    user-select: none; 
 }
 
 a:hover {
